@@ -1,2 +1,5 @@
-bundle exec cap dafa
-bundle exec rake dafa
+bundle exec cap utils:uptime
+bundle exec cap demo:hello
+bundle exec cap stage demo:hellohiera
+
+rake -R lib/capistrano/tasks/ demo:hello

@@ -2,13 +2,13 @@
 lock '3.6.1'
 
 set :application, 'haba'
-set :repo_url, 'git@github.com/csabaradi/haba.git'
+set :repo_url, 'git@github.com:csabaradi/haba.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, '/var/www/my_app_name'
+set :deploy_to, '/var/www/haba'
 
 # Default value for :scm is :git
 # set :scm, :git

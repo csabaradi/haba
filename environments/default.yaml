@@ -1,2 +1,6 @@
 ---
-servers: undefined
+servers:
+  'localhost':
+    :user: 'csabi'
+    :roles:
+      - 'web'
