@@ -3,8 +3,7 @@
   - yaml
 
 :hierarchy:
-  - environments/%{environment}/%{namespace}/%{task}
-  - environments/%{environment}/%{namespace}
+  - environments/%{environment}/%{task}
   - environments/%{environment}/default
   - environments/default
 

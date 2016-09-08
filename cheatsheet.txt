@@ -1,5 +1,7 @@
+bundle exec cap production deploy
 bundle exec cap utils:uptime
 bundle exec cap demo:hello
 bundle exec cap stage demo:hellohiera
 
 rake -R lib/capistrano/tasks/ demo:hello
+hiera hiera_message environment=production task=demo
