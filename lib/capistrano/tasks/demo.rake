@@ -5,12 +5,11 @@ namespace :demo do
   end
   
   task :hellohiera do
-    desc "Prints a hiera message"
     puts "Hello " + hiera("hiera_message")
   end
 
 
   task :hostname do
-    run("hostname", {:hosts => hiera("servers")})
+    Rake::Task['demo:hello'].invoke
   end
 end

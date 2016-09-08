@@ -29,7 +29,6 @@ module CapHiera
   def hiera_build_servers_from_stage stage
     if stage
       servers = hiera('servers', {:stage => stage})
-      puts "servers: #{servers}"
       if servers
         servers.each do |k,v|
           server k, v
