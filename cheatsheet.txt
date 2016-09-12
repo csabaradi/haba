@@ -5,3 +5,4 @@ bundle exec cap stage demo:hellohiera
 
 rake -R lib/capistrano/tasks/ demo:hello
 hiera hiera_message environment=production
+

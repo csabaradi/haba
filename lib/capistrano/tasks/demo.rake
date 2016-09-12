@@ -10,6 +10,6 @@ namespace :demo do
 
 
   task :hostname do
-    Rake::Task['demo:hello'].invoke
+    Rake::Task['demo:hello'].invoke("")
   end
 end
